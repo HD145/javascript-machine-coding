@@ -21,3 +21,10 @@
 8. Clicking "Previous" should go to the previous page.
 9. Clicking a page number (1-20) should directly load that page.
 10. Show "No products found" mesage if the product list is empty.
+
+
+# Autocomplete Search Bar Application
+
+1. The search input should dynamically fetch and display results based on the user’s typed keyword.
+2. API calls must be debounced to avoid sending a request for every keystroke and reduce server load.
+3. Previously searched keywords and their results should be cached locally to avoid redundant API calls. 
