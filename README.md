@@ -28,3 +28,13 @@
 1. The search input should dynamically fetch and display results based on the user’s typed keyword.
 2. API calls must be debounced to avoid sending a request for every keystroke and reduce server load.
 3. Previously searched keywords and their results should be cached locally to avoid redundant API calls. 
+
+# Progress Bar Application
+1. The search input should dynamically fetch and display results based on the user’s typed keyword.
+1. Display a single progress bar
+2. Show numeric progress from 0% to 100%
+3. Include '+10%' and '-10%' buttons to adjust progress
+4. Prevent progress from going below 0% or above 100%
+5. Change progress bar color based on value
+6. Color thresholds: Red if less than 40%, Orange if between 40%–79%, Green if 80% or more
+7. Animate progress bar when clicking '+10%' or '-10%'
