@@ -38,3 +38,12 @@
 5. Change progress bar color based on value
 6. Color thresholds: Red if less than 40%, Orange if between 40%–79%, Green if 80% or more
 7. Animate progress bar when clicking '+10%' or '-10%'
+
+
+# OTP Generator Application
+1. Four separate input fields for entering a k-digit OTP.
+2. Auto-focus navigation moves the cursor to the next input after a digit is entered.
+3. Backspace support: clears the current input and focuses the previous field.
+4. Paste support: handles full OTP paste, extracting and filling only numeric characters.
+
+
