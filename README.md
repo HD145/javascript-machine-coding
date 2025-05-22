@@ -46,4 +46,9 @@
 3. Backspace support: clears the current input and focuses the previous field.
 4. Paste support: handles full OTP paste, extracting and filling only numeric characters.
 
+# Nested Checkbox Application
+1. Parent → Child Behavior: When a parent checkbox is checked or unchecked, all its children and nested children must adopt the same state.
+2. Child → Parent Behavior: When all children of a parent are checked, the parent should automatically become checked.
+3. If any child is unchecked, the parent should become unchecked as well.
+4. Recursive Tree Structure: The checkbox system must support multiple levels of nesting, forming a recursive tree hierarchy.
 
