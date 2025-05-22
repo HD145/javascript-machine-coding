@@ -52,3 +52,13 @@
 3. If any child is unchecked, the parent should become unchecked as well.
 4. Recursive Tree Structure: The checkbox system must support multiple levels of nesting, forming a recursive tree hierarchy.
 
+
+# Todo Application
+
+1. The component should maintain a list of todos in its state.
+2. A todo has: id, text, and completed (boolean).
+3. An input box with placeholder "Enter todo" to type a new todo.
+4. A button labelled "Add" to add a todo.
+5. Each todo should display its text and a checkbox to toggle completion.
+6. Each todo should have a delete button labelled "Delete" to delete a todo.
+7. Completed todos should appear with a strikethrough style.
