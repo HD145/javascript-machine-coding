@@ -62,3 +62,12 @@
 5. Each todo should display its text and a checkbox to toggle completion.
 6. Each todo should have a delete button labelled "Delete" to delete a todo.
 7. Completed todos should appear with a strikethrough style.
+
+
+# Input Chips Application
+
+1. Input Field: Users can type text into an input field.
+2. Add Chips: When the user presses the "Enter" key, the typed text will be added as a new chip (tag). Empty or whitespace-only chips should not be added.
+3. Remove Chips: Users can delete a chip by clicking the "X" button next to it.
+4. Horizontal Display: The chips should be displayed in a horizontal list.
+5. Persistence: The list of chips should be maintained even when the component re-renders.

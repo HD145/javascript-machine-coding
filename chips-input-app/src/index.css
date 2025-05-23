@@ -1,0 +1,17 @@
+.chips{
+    margin: 20px;
+    display: flex;
+}
+
+.chipItem{
+    display: flex;
+    margin: 10px;
+    background-color: grey;
+}
+
+button{
+    margin-left: 10px;
+    background-color: grey;
+    border: 0px solid grey;
+    cursor: pointer;
+}
