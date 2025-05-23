@@ -71,3 +71,11 @@
 3. Remove Chips: Users can delete a chip by clicking the "X" button next to it.
 4. Horizontal Display: The chips should be displayed in a horizontal list.
 5. Persistence: The list of chips should be maintained even when the component re-renders.
+
+# Accordian Application
+
+1. Display a list of accordion items, each with a title and content.
+2. Clicking on a title expands its content and collapses any previously opened item.
+3. If an already open item is clicked, it should collapse.
+4. The component should accept an array of items as props. Each item contains title and content.
+5. The component should handle edge cases such as an empty list or invalid input by displaying a message "No items available".
