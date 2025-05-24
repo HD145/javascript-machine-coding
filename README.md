@@ -79,3 +79,13 @@
 3. If an already open item is clicked, it should collapse.
 4. The component should accept an array of items as props. Each item contains title and content.
 5. The component should handle edge cases such as an empty list or invalid input by displaying a message "No items available".
+
+# File Explorer Application
+
+1. Recursive Rendering: Folders can contain nested folders/files to any depth, handled with recursion.
+2. Expand/Collapse UI: Each folder has toggle icons (using react-icons) to show/hide its contents.
+3. Add Items: Users can add a file or folder inside any existing folder dynamically.
+4. Remove Items: Files or folders (and their children) can be removed instantly.
+5. State Management: The file tree is managed using React useState, and state updates propagate through the recursive structure.
+6. Minimal Styling: Clean, readable layout using inline styles and icons for better UX.
+7. Modal Design: An input field where users can type the name of a new file or folder, An Add button to submit the name, A Cancel button to close the modal without making any changes.
