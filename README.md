@@ -89,3 +89,10 @@
 5. State Management: The file tree is managed using React useState, and state updates propagate through the recursive structure.
 6. Minimal Styling: Clean, readable layout using inline styles and icons for better UX.
 7. Modal Design: An input field where users can type the name of a new file or folder, An Add button to submit the name, A Cancel button to close the modal without making any changes.
+
+# Image Carousel
+
+1. Built an image carousel with Next and Previous buttons for manual navigation.
+2. Enabled automatic sliding of images at set intervals for smooth user experience.
+3. Implemented hover functionality to pause the auto-slide when the user hovers over the carousel.
+4. Ensured seamless transition between images with responsive and user-friendly controls.
