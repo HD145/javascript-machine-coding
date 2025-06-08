@@ -96,3 +96,9 @@
 2. Enabled automatic sliding of images at set intervals for smooth user experience.
 3. Implemented hover functionality to pause the auto-slide when the user hovers over the carousel.
 4. Ensured seamless transition between images with responsive and user-friendly controls.
+
+# Popover Modal Application
+
+1. Generate an modal application which can render any component over any other component.
+2. Easily render any component inside a centered, styled modal with a customizable title and close button.
+3. Background should be inactive when modal is opened.
